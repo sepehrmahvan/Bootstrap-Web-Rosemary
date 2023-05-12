@@ -1,0 +1,263 @@
+@media screen and (min-width:300px) {
+  .logo{
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px !important;
+  }
+  .logo img{
+    width: 100%;
+  }
+   // slide card
+
+   div.carousel-item{
+    position: relative;
+    div.slider-caption{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 70px !important;
+      text-align: center;
+      width: 55%;
+      height: 23vw;
+      a.titr{
+        color: $color-primary !important;
+        border-bottom: 1px solid $color-primary;
+        font-weight: 600;
+        font-size: 2vw;
+        letter-spacing: 6px;
+      }
+      a.h2{
+        color: black !important;
+        transition: 250ms;
+        font-size: 4vw;
+        font-family: "playfair Display";
+      }
+      a.h2:hover{
+        color: darkgray !important;
+      }
+      p{
+        font-size: 1vw;
+        font-style: italic;
+      }
+      a.button{
+        color: $color-primary;
+        border: 3px solid $color-primary;
+        display: inline-block;
+        padding: 1vw 5vw;
+        transition: 250ms;
+        font-weight: 600;
+        font-size: 1vw;
+      }
+      a.button:hover{
+        background-color: $color-primary;
+        color: white !important;
+      }
+    }
+  }
+}
+@media screen and (min-width:567px) {
+  .logo{
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px !important;
+  }
+  .logo img{
+    width: 100%;
+  }
+   // slide card
+
+   div.carousel-item{
+    position: relative;
+    div.slider-caption{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      padding: 70px !important;
+      text-align: center;
+      width: 55%;
+      a.titr{
+        color: $color-primary !important;
+        border-bottom: 1px solid $color-primary;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 2vw;
+        letter-spacing: 6px;
+      }
+      a.h2{
+        color: black !important;
+        transition: 250ms;
+        display: block;
+        font-size: 4vw;
+        font-family: "playfair Display";
+      }
+      a.h2:hover{
+        color: darkgray !important;
+      }
+      p{
+        font-size: 1vw;
+        font-style: italic;
+      }
+      a.button{
+        color: $color-primary;
+        border: 3px solid $color-primary;
+        display: inline-block;
+        padding: 1vw 5vw;
+        transition: 250ms;
+        font-weight: 600;
+        font-size: 1vw;
+      }
+      a.button:hover{
+        color: white !important;
+      }
+      a.button:before{
+        background-color: $color-primary !important;
+      }
+    }
+  }
+}
+@media screen and (min-width:999px) {
+  .logo{
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px !important;
+  }
+  .logo img{
+    width: 100%;
+  }
+   // slide card
+
+   div.carousel-item{
+    position: relative;
+    div.slider-caption{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      padding: 70px !important;
+      text-align: center;
+      width: 45%;
+      // height: 300px;
+      a.titr{
+        color: $color-primary !important;
+        border-bottom: 1px solid $color-primary;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 1vw;
+        letter-spacing: 6px;
+      }
+      a.h2{
+        color: black !important;
+        transition: 250ms;
+        display: block;
+        font-size: 2vw;
+        font-family: "playfair Display";
+      }
+      a.h2:hover{
+        color: darkgray !important;
+      }
+      p{
+        font-size: 1vw;
+        font-style: italic;
+      }
+      a.button{
+        color: $color-primary;
+        border: 3px solid $color-primary;
+        display: inline-block;
+        padding: 1vw 5vw;
+        transition: 250ms;
+        font-weight: 600;
+        font-size: 1vw;
+      }
+      a.button:hover{
+        color: white !important;
+      }
+      a.button:before{
+        background-color: $color-primary !important;
+      }
+    }
+  }
+}
+@media screen and (min-width:1200px) {
+  .logo{
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 30px;
+    margin-top: 90px !important;
+  }
+  .logo img{
+    width: 100%;
+  }
+   // slide card
+
+   div.carousel-item{
+    position: relative;
+    div.slider-caption{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      padding: 70px !important;
+      text-align: center;
+      width: 35%;
+      // height: 400px;
+      a.titr{
+        color: $color-primary !important;
+        border-bottom: 1px solid $color-primary;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 1vw;
+        letter-spacing: 6px;
+      }
+      a.h2{
+        color: black !important;
+        transition: 250ms;
+        display: block;
+        font-size: 2vw;
+        font-family: "playfair Display";
+      }
+      a.h2:hover{
+        color: darkgray !important;
+      }
+      p{
+        font-size: 1vw;
+        font-style: italic;
+      }
+      a.button{
+        color: $color-primary;
+        border: 3px solid $color-primary;
+        display: inline-block;
+        padding: 1vw 5vw;
+        transition: 250ms;
+        font-weight: 600;
+        font-size: 1vw;
+      }
+      a.button:hover{
+        color: white !important;
+      }
+      a.button:before{
+        background-color: $color-primary !important;
+      }
+    }
+  }
+}

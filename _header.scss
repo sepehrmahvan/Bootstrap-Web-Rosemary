@@ -1,0 +1,79 @@
+header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+header ul.navbar-nav li{
+    padding: 10px 15px !important;
+}
+header div.media-icons a{
+    padding: 5px;
+    :hover{
+        color: $color-primary;
+    }
+}
+header ul.navbar-nav li:hover a{
+    color: $color-primary !important;
+}
+@media screen and (min-width:300px) {
+    header ul.navbar-nav a{
+        font-size: 12px;
+        padding: 0 !important;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    header div.media-icons a{
+        i{
+            font-size: 13px;
+        }
+    }
+    header div.media-icons{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:567px) {
+    header ul.navbar-nav a{
+        font-size: 12px;
+        padding: 0 !important;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    header div.media-icons a{
+        i{
+            font-size: 13px;
+        }
+    }
+    header div.media-icons{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:999px) {
+    header ul.navbar-nav a{
+        font-size: 10px;
+        padding: 0 !important;
+        letter-spacing: 2px;
+    }
+    header div.media-icons a{
+        i{
+            font-size: 11px;
+        }
+    }
+    header div.media-icons{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:1200px) {
+    header ul.navbar-nav a{
+        font-size: 12px;
+        padding: 0 !important;
+        letter-spacing: 2px;
+    }
+    header div.media-icons a{
+        i{
+            font-size: 13px;
+        }
+    }
+    header div.media-icons{
+        margin-left: 60px;
+    }
+}

@@ -1,0 +1,12 @@
+$color-primary: #c69f73;
+@font-face {
+    font-family: lato;
+    src: url(font/Lato-Regular.woff);
+}
+body{
+    font-family: lato;
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}

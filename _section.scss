@@ -1,0 +1,1392 @@
+// left side
+@media screen and (min-width:300px) {
+    section div.left-side {
+        width: 100%;
+        padding: 20px 0;
+        position: relative;
+        h6.older{
+            color: $color-primary !important;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2vw;
+            cursor: pointer;
+        }
+        h6.older:hover{
+            color: #a57743 !important;
+            border-bottom: 1px solid #a57743 !important;
+        }
+        div.travel {
+          a.titr {
+            color: $color-primary !important;
+            font-size: 3vw;
+            font-weight: 600;
+            letter-spacing: 6px;
+            border-bottom: 2px solid $color-primary !important;
+          }
+          a.h2 {
+            font-family: "playfair Display";
+            color: black;
+            font-size: 5vw;
+            transition: 250ms !important;
+          }
+          a.h2:hover {
+            color: darkgray !important;
+          }
+          p.date-travel {
+            font-size: 3vw;
+            font-style: italic;
+            color: darkgray !important;
+          }
+          img {
+            width: 100%;
+          }
+          p.travel-description {
+            color: black;
+            font-size: 3vw !important;
+          }
+          a.continue {
+            display: inline-block;
+            text-decoration: none;
+            border: 3px solid $color-primary;
+            padding: 10px 50px;
+            transition: 250ms;
+            letter-spacing: 3px;
+            font-size: 3vw;
+            font-weight: 400 !important;
+            background-color: white !important;
+          }
+          a.continue:hover{
+            color: white !important;
+          }
+          a.continue:before {
+            background-color: $color-primary !important;
+          }
+          div.comment {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center !important;
+            border-bottom: 1px solid lightgray;
+            div.left {
+              a.comment-p {
+                font-size: 3vw;
+                font-style: italic;
+                color: darkgray !important;
+              }
+            }
+            div.share-icons {
+              a.share {
+                font-size: 3vw;
+                color: darkgray !important;
+                display: inline-block;
+                font-style: italic !important;
+              }
+              a.icons {
+                text-decoration: none;
+                font-size: 3vw;
+                color: $color-primary !important;
+                display: inline-block;
+                padding: 5px !important;
+              }
+              i {
+                font-size: 3vw;
+              }
+            }
+          }
+        }
+        div.posts {
+          div.card-1 {
+            width: 100%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 3vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 4vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 3vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 3vw;
+              color: darkgray;
+            }
+          }
+        }
+        div.posts-1 {
+          div.card-1 {
+            width: 100%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 3vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 4vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 3vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 3vw;
+              color: darkgray;
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width:567px) {
+    section div.left-side {
+        width: 100%;
+        padding: 20px 0;
+        position: relative;
+        h6.older{
+            color: $color-primary !important;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2vw;
+        }
+        h6.older:hover{
+            color: #a57743 !important;
+            border-bottom: 1px solid #a57743 !important;
+        }
+        div.travel {
+          a.titr {
+            color: $color-primary !important;
+            font-size: 2vw;
+            font-weight: 600;
+            letter-spacing: 6px;
+            border-bottom: 2px solid $color-primary !important;
+          }
+          a.h2 {
+            font-family: "playfair Display";
+            color: black;
+            font-size: 4vw;
+            transition: 250ms !important;
+          }
+          a.h2:hover {
+            color: darkgray !important;
+          }
+          p.date-travel {
+            font-size: 2vw;
+            font-style: italic;
+            color: darkgray !important;
+          }
+          img {
+            width: 100%;
+          }
+          p.travel-description {
+            color: black;
+            font-size: 2vw !important;
+          }
+          a.continue {
+            display: inline-block;
+            text-decoration: none;
+            border: 3px solid $color-primary;
+            padding: 10px 50px;
+            transition: 250ms;
+            letter-spacing: 3px;
+            font-size: 2vw;
+            font-weight: 400 !important;
+          }
+          a.continue:before {
+            background-color: $color-primary !important;
+          }
+          div.comment {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center !important;
+            border-bottom: 1px solid lightgray;
+            div.left {
+              a.comment-p {
+                font-size: 2vw;
+                font-style: italic;
+                color: darkgray !important;
+              }
+            }
+            div.share-icons {
+              a.share {
+                font-size: 2vw;
+                color: darkgray !important;
+                display: inline-block;
+                font-style: italic !important;
+              }
+              a.icons {
+                text-decoration: none;
+                font-size: 2vw;
+                color: $color-primary !important;
+                display: inline-block;
+                padding: 5px !important;
+              }
+              i {
+                font-size: 2vw;
+              }
+            }
+          }
+        }
+        div.posts {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 2vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 3vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 2vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 2vw;
+              color: darkgray;
+            }
+          }
+        }
+        div.posts-1 {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 2vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 3vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 2vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 2vw;
+              color: darkgray;
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width:768px) {
+    section div.left-side {
+        width: 68%;
+        padding: 20px 0;
+        position: relative;
+        h6.older{
+            color: $color-primary !important;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1vw;
+        }
+        h6.older:hover{
+            color: #a57743 !important;
+            border-bottom: 1px solid #a57743 !important;
+        }
+        div.travel {
+          a.titr {
+            color: $color-primary !important;
+            font-size: 1vw;
+            font-weight: 600;
+            letter-spacing: 6px;
+            border-bottom: 2px solid $color-primary !important;
+          }
+          a.h2 {
+            font-family: "playfair Display";
+            color: black;
+            font-size: 3vw;
+            transition: 250ms !important;
+          }
+          a.h2:hover {
+            color: darkgray !important;
+          }
+          p.date-travel {
+            font-size: 1vw;
+            font-style: italic;
+            color: darkgray !important;
+          }
+          img {
+            width: 100%;
+          }
+          p.travel-description {
+            color: black;
+            font-size: 1vw !important;
+          }
+          a.continue {
+            display: inline-block;
+            text-decoration: none;
+            border: 3px solid $color-primary;
+            padding: 10px 50px;
+            font-size: 1vw;
+            transition: 250ms;
+            letter-spacing: 3px;
+            font-weight: 400 !important;
+          }
+          a.continue:before {
+            background-color: $color-primary !important;
+          }
+          div.comment {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center !important;
+            border-bottom: 1px solid lightgray;
+            div.left {
+              a.comment-p {
+                font-size: 1vw;
+                font-style: italic;
+                color: darkgray !important;
+              }
+            }
+            div.share-icons {
+              a.share {
+                font-size: 1vw;
+                color: darkgray !important;
+                display: inline-block;
+                font-style: italic !important;
+              }
+              a.icons {
+                text-decoration: none;
+                font-size: 1vw;
+                color: $color-primary !important;
+                display: inline-block;
+                padding: 5px !important;
+              }
+              i {
+                font-size: 1vw;
+              }
+            }
+          }
+        }
+        div.posts {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 1vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 2vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 1vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 1vw;
+              color: darkgray;
+            }
+          }
+        }
+        div.posts-1 {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 1vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 2vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 1vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 1vw;
+              color: darkgray;
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width:999px) {
+    section div.left-side {
+        width: 68%;
+        padding: 20px 0;
+        position: relative;
+        h6.older{
+            color: $color-primary !important;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1vw;
+        }
+        h6.older:hover{
+            color: #a57743 !important;
+            border-bottom: 1px solid #a57743 !important;
+        }
+        div.travel {
+          a.titr {
+            color: $color-primary !important;
+            font-size: 1vw;
+            font-weight: 600;
+            letter-spacing: 6px;
+            border-bottom: 2px solid $color-primary !important;
+          }
+          a.h2 {
+            font-family: "playfair Display";
+            color: black;
+            font-size: 3vw;
+            transition: 250ms !important;
+          }
+          a.h2:hover {
+            color: darkgray !important;
+          }
+          p.date-travel {
+            font-size: 1vw;
+            font-style: italic;
+            color: darkgray !important;
+          }
+          img {
+            width: 100%;
+          }
+          p.travel-description {
+            color: black;
+            font-size: 1vw !important;
+          }
+          a.continue {
+            display: inline-block;
+            text-decoration: none;
+            border: 3px solid $color-primary;
+            padding: 10px 50px;
+            transition: 250ms;
+            font-size: 1vw;
+            letter-spacing: 3px;
+            font-weight: 400 !important;
+          }
+          a.continue:before {
+            background-color: $color-primary !important;
+          }
+          div.comment {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center !important;
+            border-bottom: 1px solid lightgray;
+            div.left {
+              a.comment-p {
+                font-size: 1vw;
+                font-style: italic;
+                color: darkgray !important;
+              }
+            }
+            div.share-icons {
+              a.share {
+                font-size: 1vw;
+                color: darkgray !important;
+                display: inline-block;
+                font-style: italic !important;
+              }
+              a.icons {
+                text-decoration: none;
+                font-size: 1vw;
+                color: $color-primary !important;
+                display: inline-block;
+                padding: 5px !important;
+              }
+              i {
+                font-size: 1vw;
+              }
+            }
+          }
+        }
+        div.posts {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 1vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 2vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 1vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 1vw;
+              color: darkgray;
+            }
+          }
+        }
+        div.posts-1 {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 1vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 2vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 1vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 1vw;
+              color: darkgray;
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width:1200px) {
+    section div.left-side {
+        width: 68%;
+        padding: 20px 0;
+        position: relative;
+        h6.older{
+            color: $color-primary !important;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1vw;
+        }
+        h6.older:hover{
+            color: #a57743 !important;
+            border-bottom: 1px solid #a57743 !important;
+        }
+        div.travel {
+          a.titr {
+            color: $color-primary !important;
+            font-size: 1vw;
+            font-weight: 600;
+            letter-spacing: 6px;
+            border-bottom: 2px solid $color-primary !important;
+          }
+          a.h2 {
+            font-family: "playfair Display";
+            color: black;
+            font-size: 3vw;
+            transition: 250ms !important;
+          }
+          a.h2:hover {
+            color: darkgray !important;
+          }
+          p.date-travel {
+            font-size: 1vw;
+            font-style: italic;
+            color: darkgray !important;
+          }
+          img {
+            width: 100%;
+          }
+          p.travel-description {
+            color: black;
+            font-size: 1vw !important;
+          }
+          a.continue {
+            display: inline-block;
+            text-decoration: none;
+            border: 3px solid $color-primary;
+            padding: 10px 50px;
+            transition: 250ms;
+            font-size: 1vw;
+            letter-spacing: 3px;
+            font-weight: 400 !important;
+          }
+          a.continue:before {
+            background-color: $color-primary !important;
+          }
+          div.comment {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center !important;
+            border-bottom: 1px solid lightgray;
+            div.left {
+              a.comment-p {
+                font-size: 1vw;
+                font-style: italic;
+                color: darkgray !important;
+              }
+            }
+            div.share-icons {
+              a.share {
+                font-size: 1vw;
+                color: darkgray !important;
+                display: inline-block;
+                font-style: italic !important;
+              }
+              a.icons {
+                text-decoration: none;
+                font-size: 1vw;
+                color: $color-primary !important;
+                display: inline-block;
+                padding: 5px !important;
+              }
+              i {
+                font-size: 1vw;
+              }
+            }
+          }
+        }
+        div.posts {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 1vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 2vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 1vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 1vw;
+              color: darkgray;
+            }
+          }
+        }
+        div.posts-1 {
+          div.card-1 {
+            width: 48%;
+            a.titr {
+              color: $color-primary !important;
+              font-size: 1vw;
+              font-weight: 600;
+              letter-spacing: 6px;
+              border-bottom: 2px solid $color-primary !important;
+            }
+            a.h2 {
+              font-family: "playfair Display";
+              color: black;
+              font-size: 2vw;
+              transition: 250ms !important;
+            }
+            a.h2:hover{
+              color: darkgray !important;
+            }
+            p.card-description {
+              color: black;
+              font-size: 1vw !important;
+            }
+            p.date{
+              font-style: italic;
+              font-size: 1vw;
+              color: darkgray;
+            }
+          }
+        }
+      }
+}
+// right side ---------------------------------------------------------------------
+@media screen and (min-width:300px) {
+    section div.right-side {
+        width: 100%;
+        padding: 10px 0;
+        h4{
+          font-size: 3vw;
+          display: block !important;
+          color: black !important;
+          border: 1px solid $color-primary !important;
+          padding: 15px 0;
+          width: 100%;
+          letter-spacing: 4px;
+          font-weight: 100;
+          text-align: center;
+      }
+      // about me
+        div.about-me{
+          img{
+              border-radius: 50%;
+              width: 100%;
+          }
+          p{
+              font-size: 3vw;
+              color: black !important;
+          }
+          a{
+              color: $color-primary !important;
+              font-size: 3vw;
+              text-decoration: none;
+              padding: 10px 0 !important;
+          }
+          a:before{
+              background-color: $color-primary !important;
+          }
+        }
+      //   media icons
+        div.media-icons{
+          padding: 10px 0;
+          div.icons{
+              text-align: center;
+              a{
+                  padding: 5px 10px;
+                  color: black !important;
+                  text-decoration: none;
+                  i{
+                      font-size: 3vw;
+                  }
+              }
+              a:hover{
+                  color: $color-primary !important;
+              }
+          }
+        }
+      //   must read
+      div.must-read{
+          div.must-read-card{
+              a{
+                  font-size: 3vw !important;
+              }
+              a:hover{
+                  text-decoration: underline;
+              }
+              p{
+                  font-style: italic;
+              }
+          }
+      }
+      // email
+      div.email{
+          background-color: lightgray !important;
+          h3{
+              font-style: italic;
+              font-family: "playfair Display";
+          }
+          a{
+              background-color: black;
+              text-decoration: none;
+              color: white !important;
+              display: block;
+              padding: 15px 0;
+          }
+          a:hover{
+              background-color: $color-primary !important;
+          }
+      }
+      // tags
+      div.tags{
+          div.lifestyle{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 3vw;
+              }
+          }
+          div.travel{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 3vw;
+              }
+          }
+      }
+      // categories
+      div.categories{
+          a{
+              display: block;
+              padding: 10px 5px;
+              border-bottom: 1px solid lightgray;
+              font-size: 3vw;
+          }
+          a:hover{
+              text-decoration: underline !important;
+          }
+      }
+      }
+}
+@media screen and (min-width:567px) {
+    section div.right-side {
+        width: 100%;
+        padding: 10px 0;
+        h4{
+          font-size: 2vw;
+          display: block !important;
+          color: black !important;
+          border: 1px solid $color-primary !important;
+          padding: 15px 0;
+          width: 100%;
+          letter-spacing: 4px;
+          font-weight: 100;
+          text-align: center;
+      }
+      // about me
+        div.about-me{
+          img{
+              border-radius: 50%;
+              width: 100%;
+          }
+          p{
+              font-size: 2vw;
+              color: black !important;
+          }
+          a{
+              color: $color-primary !important;
+              font-size: 2vw;
+              text-decoration: none;
+              padding: 10px 0 !important;
+          }
+          a:before{
+              background-color: $color-primary !important;
+          }
+        }
+      //   media icons
+        div.media-icons{
+          padding: 10px 0;
+          div.icons{
+              text-align: center;
+              a{
+                  padding: 5px 10px;
+                  color: black !important;
+                  text-decoration: none;
+                  i{
+                      font-size: 2vw;
+                  }
+              }
+              a:hover{
+                  color: $color-primary !important;
+              }
+          }
+        }
+      //   must read
+      div.must-read{
+          div.must-read-card{
+              a{
+                  font-size: 2vw !important;
+              }
+              a:hover{
+                  text-decoration: underline;
+              }
+              p{
+                  font-style: italic;
+              }
+          }
+      }
+      // email
+      div.email{
+          background-color: lightgray !important;
+          h3{
+              font-style: italic;
+              font-family: "playfair Display";
+          }
+          a{
+              background-color: black;
+              text-decoration: none;
+              color: white !important;
+              display: block;
+              padding: 15px 0;
+          }
+          a:hover{
+              background-color: $color-primary !important;
+          }
+      }
+      // tags
+      div.tags{
+          div.lifestyle{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 2vw;
+              }
+          }
+          div.travel{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 2vw;
+              }
+          }
+      }
+      // categories
+      div.categories{
+          a{
+              display: block;
+              padding: 10px 5px;
+              border-bottom: 1px solid lightgray;
+              font-size: 2vw;
+          }
+          a:hover{
+              text-decoration: underline !important;
+          }
+      }
+      }
+}
+@media screen and (min-width:768px) {
+    section div.right-side {
+        width: 28%;
+        padding: 10px 0;
+        h4{
+          font-size: 1vw;
+          display: block !important;
+          color: black !important;
+          border: 1px solid $color-primary !important;
+          padding: 15px 0;
+          width: 100%;
+          letter-spacing: 4px;
+          font-weight: 100;
+          text-align: center;
+      }
+      // about me
+        div.about-me{
+          img{
+              border-radius: 50%;
+              width: 100%;
+          }
+          p{
+              font-size: 1vw;
+              color: black !important;
+          }
+          a{
+              color: $color-primary !important;
+              font-size: 1vw;
+              text-decoration: none;
+              padding: 10px 0 !important;
+          }
+          a:before{
+              background-color: $color-primary !important;
+          }
+        }
+      //   media icons
+        div.media-icons{
+          padding: 10px 0;
+          div.icons{
+              text-align: center;
+              a{
+                  padding: 5px 10px;
+                  color: black !important;
+                  text-decoration: none;
+                  i{
+                      font-size: 1vw;
+                  }
+              }
+              a:hover{
+                  color: $color-primary !important;
+              }
+          }
+        }
+      //   must read
+      div.must-read{
+          div.must-read-card{
+              a{
+                  font-size: 1vw !important;
+              }
+              a:hover{
+                  text-decoration: underline;
+              }
+              p{
+                  font-style: italic;
+              }
+          }
+      }
+      // email
+      div.email{
+          background-color: lightgray !important;
+          h3{
+              font-style: italic;
+              font-family: "playfair Display";
+          }
+          a{
+              background-color: black;
+              text-decoration: none;
+              color: white !important;
+              display: block;
+              padding: 15px 0;
+          }
+          a:hover{
+              background-color: $color-primary !important;
+          }
+      }
+      // tags
+      div.tags{
+          div.lifestyle{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 1vw;
+              }
+          }
+          div.travel{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 1vw;
+              }
+          }
+      }
+      // categories
+      div.categories{
+          a{
+              display: block;
+              padding: 10px 5px;
+              border-bottom: 1px solid lightgray;
+              font-size: 1vw;
+          }
+          a:hover{
+              text-decoration: underline !important;
+          }
+      }
+      }
+}
+@media screen and (min-width:999px) {
+    section div.right-side {
+        width: 28%;
+        padding: 10px 0;
+        h4{
+          font-size: 1vw;
+          display: block !important;
+          color: black !important;
+          border: 1px solid $color-primary !important;
+          padding: 15px 0;
+          width: 100%;
+          letter-spacing: 4px;
+          font-weight: 100;
+          text-align: center;
+      }
+      // about me
+        div.about-me{
+          img{
+              border-radius: 50%;
+              width: 100%;
+          }
+          p{
+              font-size: 1vw;
+              color: black !important;
+          }
+          a{
+              color: $color-primary !important;
+              font-size: 1vw;
+              text-decoration: none;
+              padding: 10px 0 !important;
+          }
+          a:before{
+              background-color: $color-primary !important;
+          }
+        }
+      //   media icons
+        div.media-icons{
+          padding: 10px 0;
+          div.icons{
+              text-align: center;
+              a{
+                  padding: 5px 10px;
+                  color: black !important;
+                  text-decoration: none;
+                  i{
+                      font-size: 1vw;
+                  }
+              }
+              a:hover{
+                  color: $color-primary !important;
+              }
+          }
+        }
+      //   must read
+      div.must-read{
+          div.must-read-card{
+              a{
+                  font-size: 1vw !important;
+              }
+              a:hover{
+                  text-decoration: underline;
+              }
+              p{
+                  font-style: italic;
+              }
+          }
+      }
+      // email
+      div.email{
+          background-color: lightgray !important;
+          h3{
+              font-style: italic;
+              font-family: "playfair Display";
+          }
+          a{
+              background-color: black;
+              text-decoration: none;
+              color: white !important;
+              display: block;
+              padding: 15px 0;
+          }
+          a:hover{
+              background-color: $color-primary !important;
+          }
+      }
+      // tags
+      div.tags{
+          div.lifestyle{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 1vw;
+              }
+          }
+          div.travel{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 1vw;
+              }
+          }
+      }
+      // categories
+      div.categories{
+          a{
+              display: block;
+              padding: 10px 5px;
+              border-bottom: 1px solid lightgray;
+              font-size: 1vw;
+          }
+          a:hover{
+              text-decoration: underline !important;
+          }
+      }
+      }
+}
+@media screen and (min-width:1200px) {
+    section div.right-side {
+        width: 28%;
+        padding: 10px 0;
+        h4{
+          font-size: 1vw;
+          display: block !important;
+          color: black !important;
+          border: 1px solid $color-primary !important;
+          padding: 15px 0;
+          width: 100%;
+          letter-spacing: 4px;
+          font-weight: 100;
+          text-align: center;
+      }
+      // about me
+        div.about-me{
+          img{
+              border-radius: 50%;
+              width: 100%;
+          }
+          p{
+              font-size: 1vw;
+              color: black !important;
+          }
+          a{
+              color: $color-primary !important;
+              font-size: 1vw;
+              text-decoration: none;
+              padding: 10px 0 !important;
+          }
+          a:before{
+              background-color: $color-primary !important;
+          }
+        }
+      //   media icons
+        div.media-icons{
+          padding: 10px 0;
+          div.icons{
+              text-align: center;
+              a{
+                  padding: 5px 10px;
+                  color: black !important;
+                  text-decoration: none;
+                  i{
+                      font-size: 1vw;
+                  }
+              }
+              a:hover{
+                  color: $color-primary !important;
+              }
+          }
+        }
+      //   must read
+      div.must-read{
+          div.must-read-card{
+              a{
+                  font-size: 1vw !important;
+              }
+              a:hover{
+                  text-decoration: underline;
+              }
+              p{
+                  font-style: italic;
+              }
+          }
+      }
+      // email
+      div.email{
+          background-color: lightgray !important;
+          h3{
+              font-style: italic;
+              font-family: "playfair Display";
+          }
+          a{
+              background-color: black;
+              text-decoration: none;
+              color: white !important;
+              display: block;
+              padding: 15px 0;
+          }
+          a:hover{
+              background-color: $color-primary !important;
+          }
+      }
+      // tags
+      div.tags{
+          div.lifestyle{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 1vw;
+              }
+          }
+          div.travel{
+              position: relative;
+              a{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%,-50%);
+                  letter-spacing: 3px;
+                  font-size: 1vw;
+              }
+          }
+      }
+      // categories
+      div.categories{
+          a{
+              display: block;
+              padding: 10px 5px;
+              border-bottom: 1px solid lightgray;
+              font-size: 1vw;
+          }
+          a:hover{
+              text-decoration: underline !important;
+          }
+      }
+      }
+}
